@@ -1,0 +1,99 @@
+body{
+  background: #A52A2A;
+}
+
+.container-fluid{
+  margin-left:40px;
+  margin-right: 40px;
+  background: white;
+}
+
+@media (max-width:700px) {
+  .container-fluid{
+    margin-left:0px;
+    margin-right: 0px;
+  }
+}
+
+header {
+  background-color:	#FFE4C4!important;
+}
+/* Logo Y Redes*/
+.img-logo{
+  width: 30%;
+  border-radius: 10px;
+}
+
+.redes{
+ text-align: right;
+ padding-top: 8%;
+ padding-right: 2%;
+}
+
+@media (max-width:900px) {
+  .redes{
+    text-align: center;
+    padding-top: 0%;
+    padding-right: 0%;
+  }
+}
+
+.img1, .img2, .img3{
+  width:5%;
+  transition-property: background;
+}
+
+.img1:hover, .img2:hover, .img3:hover{
+  background:#808080 ;
+}
+
+/* Menu Navegacion*/
+.menu{
+  background:#808080 !important;
+  transition-property:background;
+}
+
+.menu:hover{
+  background: #A52A2A !important;
+}
+
+  /* Contenido*/
+.descripcion{
+  text-align: justify;
+}
+
+.famoso, .icono-1{
+  width: 100%;
+}
+
+@media (max-width:900px) {
+  .icono-1{
+    margin-top: 20px;
+    margin-right:-30px;
+    width: 40px;
+  }
+}
+
+textarea{
+  width:100%;
+}
+
+/* Formulario*/
+ button{
+  width: 100%;
+}
+
+td{
+  padding: 18px !important;
+  transition-property: background;
+}
+
+td:hover{
+  background: #808080;
+}
+
+@media (max-width:700px){
+  td, .boton{
+    display: none;
+  }
+}
